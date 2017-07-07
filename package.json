@@ -1,0 +1,26 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "node-intro",
+  "main": "workshop.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetyanaMyronova/node-intro.git"
+  },
+  "author": "Tetyana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TetyanaMyronova/node-intro/issues"
+  },
+  "homepage": "https://github.com/TetyanaMyronova/node-intro#readme"
+}
