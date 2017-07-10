@@ -75,10 +75,10 @@ function getCurrentTemperature(address) {
 function getDistanceFromIss(address) {
   Promise.all([getAddressPosition(address), getIssPosition()])
   .then(function(data){
-    console.log(data);
+    //console.log(data);
     console.log("The distance between me and orbital satellite is "+ getDistance(data[0], data[1]) + " kilometers.");
     return getDistance(data[0], data[1]);
   })
 }
 
-getDistanceFromIss();
+getDistanceFromIss(address);
